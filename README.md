@@ -10,7 +10,7 @@ I made this JSON
   "name":"xxxxx",
   "account":[
     {
-      "ProfileImage":"",
+      "profileImage":"",
       "level":0,
       "career":"xxx",
       "XP":133,
@@ -49,7 +49,7 @@ classDiagram
   }
   
   class Account {
-    - ProfileImage: string
+    - profileImage: string
     - level: number
     - career: string
     - XP: number
