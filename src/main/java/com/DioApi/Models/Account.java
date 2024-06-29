@@ -17,6 +17,6 @@ public class Account {
     private int XP;
     private int habilities;
     private int projects;
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private List<TechnologyIcon> technologyIcon;
 }
